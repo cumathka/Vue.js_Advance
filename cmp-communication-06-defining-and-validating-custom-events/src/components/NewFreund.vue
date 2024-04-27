@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="submitData">
+  <form @submit.prevent="submitData" ref="addFriendForm">
     <div>
       <label for="">Name : </label>
       <input type="text" name="" v-model="enteredName" />
@@ -35,7 +35,7 @@ export default {
         'add-friend',
         this.enteredName,
         this.enteredPhone,
-        this.enteredEmail
+        this.enteredEmail ,
       );
     },
   },
