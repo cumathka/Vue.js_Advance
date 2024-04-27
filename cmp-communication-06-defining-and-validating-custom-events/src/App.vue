@@ -113,6 +113,7 @@ header {
   color: white;
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+  margin: 5px;
 }
 #app button:hover,
 #app button:active {
